@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="My social networks">
+        <CheckBoxPreference
+            android:key="@string/vkontakte"
+            android:title="@string/vkontakte">
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:key="@string/instagram"
+            android:title="@string/instagram">
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:key="@string/facebook"
+            android:title="@string/facebook">
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:key="@string/twitter"
+            android:title="@string/twitter">
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:key="@string/linkedIn"
+            android:title="@string/linkedIn">
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="Post arrangement">
+        <CheckBoxPreference
+            android:key="Don't ask me before posting"
+            android:summary="In other case pre-notification will be shown (Be careful! Posting may interrupt your work.)"
+            android:title="Don't ask me before posting">
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:key="@string/remember_intervals"
+            android:title="@string/remember_intervals"
+            android:summary="Last single and multi post intervals will be memorized">
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:key="Auto post"
+            android:summary="Randomly chosen image from gallery will be suggested to post"
+            android:title="Auto post">
+        </CheckBoxPreference>
+    </PreferenceCategory>
+</PreferenceScreen>

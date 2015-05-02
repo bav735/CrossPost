@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base"/>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:radioButtonStyle">@style/RadioButton</item>
+        <!-- colorPrimary is used for the default action bar background -->
+        <!--<item name="android:colorPrimary">@color/white</item>-->
+        <!-- colorPrimaryDark is used for the status bar -->
+        <!--<item name="colorPrimaryDark">@color/dark</item>-->
+        <!-- colorAccent is used as the default value for colorControlActivated
+             which is used to tint widgets -->
+        <item name="colorAccent">@color/pink</item>
+
+        <!-- You can also set colorControlNormal, colorControlActivated
+             colorControlHighlight & colorSwitchThumbNormal. -->
+    </style>
+
+    <style name="RadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/radio</item>
+    </style>
+
+</resources>

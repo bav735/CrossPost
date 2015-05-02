@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cross Post</string>
+    <string name="app_dir">CrossPost</string>
+    <string name="title_section0">Single Post</string>
+    <string name="title_section1">Multi Post</string>
+    <string name="title_section2">Schedule</string>
+    <string name="title_section3">History</string>
+    <string name="title_section4">Preferences</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="select_network_time">Select "Automatic date and time" in the Settings</string>
+    <string name="select_image">Select image</string>
+    <string name="error">Something gone wrong :(</string>
+    <string name="gallery_pick">Select Picture</string>
+    <string name="authorize">Logging in</string>
+    <string name="post_by_app">(Posted by Android app, Cross Post:)</string>
+    <string name="remember_intervals">Remember post intervals</string>
+    <string name="remembered_interval">remembered interval</string>
+    <string name="notification_message">Will you make a post?</string>
+
+    <string name="vkontakte">Vkontakte</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="linkedIn">LinkedIn</string>
+    <string name="facebook_app_id">775287702569002</string>
+    <string name="twitter_consumer_key">5xmA76YZzrBeH1JccQWl54fhP</string>
+    <string name="twitter_consumer_secret">mdgK2eO5yk5GccC4XM6fWsdmsJy0Ub3eguWWGjXDd5JCxAlogc</string>
+    <string name="callback">"https://crosspost.twitter"</string>
+    <string name="linkedin_consumer_key">78xhw2pi8grxq7</string>
+    <string name="linkedin_consumer_secret">fCbI3oBDWNWKbYhy</string>
+</resources>
